@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kanish S | B.Sc. AI & ML Student Portfolio</title>
+<meta name="description" content="Portfolio of Kanish S, B.Sc. Artificial Intelligence & Machine Learning student at KPR College of Arts and Sciences. Projects, skills, education and contact details.">
+<meta property="og:title" content="Kanish S | AI & ML Student Portfolio">
+<meta property="og:description" content="B.Sc. AI & ML student exploring Python, machine learning and web development.">
+<meta name="theme-color" content="#0b0b10">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJnIiB4MT0iMCIgeTE9IjAiIHgyPSIxIiB5Mj0iMSI+PHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjNjM2NmYxIi8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjYTg1NWY3Ii8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByeD0iMTYiIGZpbGw9IiMwYjBiMTAiLz48dGV4dCB4PSIzMiIgeT0iNDMiIGZvbnQtZmFtaWx5PSJBcmlhbCxzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iNzAwIiBmb250LXNpemU9IjMyIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSJ1cmwoI2cpIj5LUzwvdGV4dD48L3N2Zz4K">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0b0b10;--card:rgba(255,255,255,.04);--line:rgba(255,255,255,.1);--tx:#cbd5e1;--mut:#94a3b8;--wh:#fff;--a:#818cf8;--grad:linear-gradient(90deg,#6366f1,#a855f7)}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth;scroll-padding-top:5rem}
+body{background:var(--bg);color:var(--tx);font-family:Inter,system-ui,sans-serif;line-height:1.6;overflow-x:hidden;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}ul{list-style:none;padding:0}
+.i{width:1.25em;height:1.25em;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;flex:none}
+.wrap{max-width:1100px;margin:0 auto;padding:0 20px}
+section.s{padding:90px 0}
+.glass{background:var(--card);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border:1px solid var(--line);border-radius:16px}
+.gt{background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+.h2{display:flex;align-items:center;gap:12px;color:var(--wh);font-size:1.9rem;font-weight:700;margin-bottom:36px}
+.h2 span{background:rgba(99,102,241,.12);color:var(--a);padding:8px;border-radius:12px;display:flex}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:12px 24px;border-radius:12px;font-weight:600;color:var(--wh);border:1px solid var(--line);background:var(--card);cursor:pointer;font:inherit;font-weight:600;transition:.25s}
+.btn:hover{transform:translateY(-2px);background:rgba(255,255,255,.1)}
+.btn.p{background:var(--grad);border:0;box-shadow:0 8px 24px rgba(99,102,241,.25)}
+.btn:focus-visible,a:focus-visible,input:focus-visible,textarea:focus-visible{outline:2px solid var(--a);outline-offset:2px}
+/* nav */
+header{position:fixed;inset:0 0 auto;z-index:50;transition:.3s}
+header.sc,header.open{background:rgba(11,11,16,.85);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+nav{display:flex;align-items:center;justify-content:space-between;height:64px}
+.logo{font-weight:800;font-size:1.2rem;color:var(--wh)}
+nav ul.m{display:flex;gap:4px}
+nav ul.m a{display:block;padding:8px 12px;border-radius:8px;font-size:.9rem;color:var(--mut);transition:.2s}
+nav ul.m a:hover,nav ul.m a.on{background:rgba(255,255,255,.06);color:var(--wh)}
+#mb{display:none;background:none;border:0;color:var(--wh);padding:8px;cursor:pointer}
+#mm{display:none;padding:0 20px 12px}#mm a{display:block;padding:12px 0;color:var(--tx)}
+header.open #mm{display:block}
+/* hero */
+#home{min-height:100vh;display:flex;align-items:center;padding-top:64px;position:relative;overflow:hidden}
+.orb{position:absolute;width:380px;height:380px;border-radius:50%;filter:blur(90px);pointer-events:none}
+.hg{display:grid;grid-template-columns:1.4fr 1fr;gap:48px;align-items:center;position:relative}
+.eyebrow{color:var(--a);font-weight:500;font-size:.9rem;margin-bottom:10px}
+h1{color:var(--wh);font-size:clamp(2.8rem,8vw,4rem);font-weight:800;line-height:1.1}
+.role{color:#e2e8f0;font-size:clamp(1.15rem,3vw,1.5rem);font-weight:600;margin-top:14px}
+.intro{color:var(--mut);max-width:520px;margin-top:18px}
+.row{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}
+.soc{display:flex;gap:12px;margin-top:22px}.soc a{padding:12px;border-radius:10px;display:flex;color:var(--tx);transition:.2s}.soc a:hover{color:var(--wh)}
+.ph{width:min(280px,70vw);aspect-ratio:1;border-radius:50%;padding:4px;background:linear-gradient(135deg,#6366f1,#a855f7);margin:auto}
+.ph>*{width:100%;height:100%;border-radius:50%;object-fit:cover;background:#12121a;display:flex;align-items:center;justify-content:center;font-size:4.5rem;font-weight:800;color:var(--wh)}
+/* cards */
+.pad{padding:28px}.about p.o{line-height:1.8}
+.meta{display:flex;align-items:center;gap:8px;color:var(--mut);font-size:.9rem;margin-top:16px}.meta .i{color:var(--a)}
+.tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:22px}
+.tag{background:rgba(99,102,241,.1);color:#a5b4fc;border-radius:99px;padding:4px 14px;font-size:.85rem}
+.tl{margin-left:12px;border-left:1px solid var(--line);padding-left:32px}
+.tl li{position:relative;margin-bottom:22px}.tl li::before{content:"";position:absolute;left:-39px;top:22px;width:12px;height:12px;border-radius:50%;background:var(--a);box-shadow:0 0 0 4px var(--bg)}
+.tl h3,.card h3{color:var(--wh);font-size:1.05rem}.tl .pl{color:var(--mut);font-size:.9rem}.tl .sc{margin-top:8px;font-size:.9rem;color:#a5b4fc}.tl .sc em{color:#64748b;font-style:normal}
+.grid{display:grid;gap:20px}.g3{grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}.g2{grid-template-columns:repeat(auto-fit,minmax(min(100%,420px),1fr))}
+.card{padding:24px;transition:.3s}.card:hover{transform:translateY(-4px);border-color:rgba(129,140,248,.4)}
+.sk{display:flex;align-items:center;gap:12px;color:var(--a);margin-bottom:14px}
+.chips{display:flex;flex-wrap:wrap;gap:8px}.chip{background:rgba(255,255,255,.06);padding:4px 12px;border-radius:8px;font-size:.88rem}
+.ach{display:flex;gap:16px}.ach .ic{height:fit-content;background:rgba(99,102,241,.12);color:var(--a);padding:12px;border-radius:12px;display:flex}.ach p{color:var(--mut);font-size:.9rem;margin-top:4px}
+.pj{display:flex;flex-direction:column;padding:0;overflow:hidden}
+.pv{height:170px;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,rgba(79,70,229,.25),rgba(147,51,234,.25));color:rgba(165,180,252,.7);overflow:hidden}
+.pv .i{width:48px;height:48px;transition:.3s}.pj:hover .pv .i{transform:scale(1.15)}.pv img{width:100%;height:100%;object-fit:cover}
+.pb{padding:24px;display:flex;flex-direction:column;flex:1}.pb p{color:var(--mut);font-size:.92rem;margin-top:8px}
+.pb ul{margin-top:12px;padding-left:18px;list-style:disc;color:var(--mut);font-size:.9rem}
+.pl2{display:flex;gap:18px;margin-top:auto;padding-top:20px;font-size:.9rem;font-weight:500}.pl2 a{display:inline-flex;align-items:center;gap:6px;color:var(--wh)}.pl2 a:hover{color:#a5b4fc}
+.rs{display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap}.rs p{color:var(--mut);max-width:520px}
+/* contact */
+.cg{display:grid;grid-template-columns:1fr 1.4fr;gap:32px}
+.cl{display:flex;flex-direction:column;gap:12px}.cl a{display:flex;align-items:center;gap:12px;padding:16px;border-radius:12px;word-break:break-all;transition:.2s}.cl a:hover{color:var(--wh);border-color:rgba(129,140,248,.4)}.cl .i{color:var(--a)}
+form{display:grid;gap:16px;padding:24px}.two{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+label{display:block;font-size:.88rem;margin-bottom:6px}
+input,textarea{width:100%;background:rgba(255,255,255,.05);border:1px solid var(--line);color:var(--wh);border-radius:12px;padding:12px 16px;font:inherit}
+input:focus,textarea:focus{border-color:var(--a);outline:none}
+.er{color:#f87171;font-size:.85rem;margin-top:4px;min-height:0}
+#st{font-size:.9rem;color:var(--mut)}#st.ok{color:#34d399}#st.bad{color:#f87171}
+footer{border-top:1px solid var(--line);padding:30px 0;text-align:center;font-size:.88rem;color:#64748b}
+#top{position:fixed;right:24px;bottom:24px;z-index:40;padding:12px;border-radius:50%;color:var(--wh);cursor:pointer;display:none;transition:.25s}#top:hover{transform:translateY(-3px)}#top.v{display:flex}
+.rv{opacity:0;transform:translateY(16px);transition:opacity .6s,transform .6s}.rv.show{opacity:1;transform:none}
+@media(max-width:1023px){nav ul.m{display:none}#mb{display:block}}
+@media(max-width:768px){.hg,.cg{grid-template-columns:1fr}.hg .ph{order:-1}.two{grid-template-columns:1fr}section.s{padding:70px 0}.hg{text-align:left}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.rv{opacity:1;transform:none;transition:none}}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+<symbol id="github" viewBox="0 0 24 24"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.4 5.4 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></symbol>
+<symbol id="linkedin" viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></symbol>
+<symbol id="mail" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></symbol>
+<symbol id="phone" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></symbol>
+<symbol id="download" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m7 10 5 5 5-5"/><path d="M12 15V3"/></symbol>
+<symbol id="up" viewBox="0 0 24 24"><path d="m5 12 7-7 7 7"/><path d="M12 19V5"/></symbol>
+<symbol id="menu" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"/></symbol>
+<symbol id="x" viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"/></symbol>
+<symbol id="code" viewBox="0 0 24 24"><path d="m16 18 6-6-6-6"/><path d="m8 6-6 6 6 6"/></symbol>
+<symbol id="globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></symbol>
+<symbol id="cpu" viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6"/><path d="M15 2v2M15 20v2M2 15h2M2 9h2M20 15h2M20 9h2M9 2v2M9 20v2"/></symbol>
+<symbol id="git" viewBox="0 0 24 24"><path d="M6 3v12"/><circle cx="18" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><path d="M18 9a9 9 0 0 1-9 9"/></symbol>
+<symbol id="users" viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></symbol>
+<symbol id="award" viewBox="0 0 24 24"><circle cx="12" cy="8" r="6"/><path d="M15.48 12.89 17 22l-5-3-5 3 1.52-9.11"/></symbol>
+<symbol id="trophy" viewBox="0 0 24 24"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/><path d="M4 22h16"/><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"/><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"/><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"/></symbol>
+<symbol id="brief" viewBox="0 0 24 24"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></symbol>
+<symbol id="folder" viewBox="0 0 24 24"><path d="M20 20a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.9a2 2 0 0 1-1.69-.9L9.6 3.9A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2Z"/></symbol>
+<symbol id="ext" viewBox="0 0 24 24"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></symbol>
+<symbol id="grad" viewBox="0 0 24 24"><path d="M21.42 10.92a1 1 0 0 0-.02-1.84L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.83l8.57 3.91a2 2 0 0 0 1.66 0z"/><path d="M22 10v6"/><path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"/></symbol>
+<symbol id="file" viewBox="0 0 24 24"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"/><path d="M14 2v4a2 2 0 0 0 2 2h4"/></symbol>
+<symbol id="send" viewBox="0 0 24 24"><path d="m22 2-7 20-4-9-9-4Z"/><path d="M22 2 11 13"/></symbol>
+<symbol id="pin" viewBox="0 0 24 24"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></symbol>
+</defs></svg>
+
+<header id="hd">
+  <div class="wrap">
+    <nav aria-label="Main">
+      <a href="#home" class="logo">K<span class="gt">S</span></a>
+      <ul class="m" id="nl"></ul>
+      <button id="mb" aria-label="Toggle menu" aria-expanded="false"><svg class="i"><use href="#menu"/></svg></button>
+    </nav>
+    <ul id="mm"></ul>
+  </div>
+</header>
+
+<main>
+<section id="home">
+  <div class="orb" style="left:-120px;top:80px;background:rgba(79,70,229,.2)"></div>
+  <div class="orb" style="right:-120px;bottom:40px;background:rgba(147,51,234,.2)"></div>
+  <div class="wrap hg">
+    <div class="rv">
+      <p class="eyebrow">Hello, I'm</p>
+      <h1>Kanish S<span class="gt">.</span></h1>
+      <p class="role">B.Sc. Artificial Intelligence &amp; Machine Learning Student</p>
+      <p class="intro">Curious about AI, machine learning and web development. I enjoy problem-solving and learning by building, and I am looking for opportunities to gain practical experience.</p>
+      <div class="row">
+        <a class="btn p" href="#projects">View My Projects</a>
+        <a class="btn" href="data:application/pdf;base64,JVBERi0xLjQKJZOMi54gUmVwb3J0TGFiIEdlbmVyYXRlZCBQREYgZG9jdW1lbnQgKG9wZW5zb3VyY2UpCjEgMCBvYmoKPDwKL0YxIDIgMCBSIC9GMiAzIDAgUgo+PgplbmRvYmoKMiAwIG9iago8PAovQmFzZUZvbnQgL0hlbHZldGljYSAvRW5jb2RpbmcgL1dpbkFuc2lFbmNvZGluZyAvTmFtZSAvRjEgL1N1YnR5cGUgL1R5cGUxIC9UeXBlIC9Gb250Cj4+CmVuZG9iagozIDAgb2JqCjw8Ci9CYXNlRm9udCAvSGVsdmV0aWNhLUJvbGQgL0VuY29kaW5nIC9XaW5BbnNpRW5jb2RpbmcgL05hbWUgL0YyIC9TdWJ0eXBlIC9UeXBlMSAvVHlwZSAvRm9udAo+PgplbmRvYmoKNCAwIG9iago8PAovQ29udGVudHMgOCAwIFIgL01lZGlhQm94IFsgMCAwIDU5NS4yNzU2IDg0MS44ODk4IF0gL1BhcmVudCA3IDAgUiAvUmVzb3VyY2VzIDw8Ci9Gb250IDEgMCBSIC9Qcm9jU2V0IFsgL1BERiAvVGV4dCAvSW1hZ2VCIC9JbWFnZUMgL0ltYWdlSSBdCj4+IC9Sb3RhdGUgMCAvVHJhbnMgPDwKCj4+IAogIC9UeXBlIC9QYWdlCj4+CmVuZG9iago1IDAgb2JqCjw8Ci9QYWdlTW9kZSAvVXNlTm9uZSAvUGFnZXMgNyAwIFIgL1R5cGUgL0NhdGFsb2cKPj4KZW5kb2JqCjYgMCBvYmoKPDwKL0F1dGhvciAoXChhbm9ueW1vdXNcKSkgL0NyZWF0aW9uRGF0ZSAoRDoyMDI2MDgyNjEzMDQyOSswMCcwMCcpIC9DcmVhdG9yIChcKHVuc3BlY2lmaWVkXCkpIC9LZXl3b3JkcyAoKSAvTW9kRGF0ZSAoRDoyMDI2MDgyNjEzMDQyOSswMCcwMCcpIC9Qcm9kdWNlciAoUmVwb3J0TGFiIFBERiBMaWJyYXJ5IC0gXChvcGVuc291cmNlXCkpIAogIC9TdWJqZWN0IChcKHVuc3BlY2lmaWVkXCkpIC9UaXRsZSAoXChhbm9ueW1vdXNcKSkgL1RyYXBwZWQgL0ZhbHNlCj4+CmVuZG9iago3IDAgb2JqCjw8Ci9Db3VudCAxIC9LaWRzIFsgNCAwIFIgXSAvVHlwZSAvUGFnZXMKPj4KZW5kb2JqCjggMCBvYmoKPDwKL0ZpbHRlciBbIC9BU0NJSTg1RGVjb2RlIC9GbGF0ZURlY29kZSBdIC9MZW5ndGggMjIwNQo+PgpzdHJlYW0KR2IhU245Nl0pWiddL15nZ2VFLWNlZ1N1MSJeTWlWJmViciE1dF1tYzJoTXJUSnR1NzZPcmFEYkhVZVxrQ2gmQStTPV1TLjBiWDZWaDwvMHJObyo9cihkbkFlNS5sPltKM2d1Q0ptaUAvcGQ9OUItXCVhKmVYWzJ0Uy49ZCNpJlwkbEZ0SihcP0llXFY2WDFRZV9eNkRJITAqQSNsJ2BgLS1WMlpmRiRZKmFFWmVjVE1NIydZNUo/RGklRDMpPD9AaStbcipML1U6XGFsKjtkOC01aDRlXyNbXEBXa01JTjkzVGpGLGdsOzdLJCk0Wzo2P0QnU2NBcGhgJzouI2w6KSUvZXFAcl08QkJEPWBFM0tHJGQpM2xxO0JBZEBzS1ouJ3JhWGgzUmciKDpJRiVqJVAwIVI/ZWxjJGlrMk1KKWAwcEwpUykmcSwrbHE4PnJFb0kjVHF0QC5uVFNSYmBvYVM1XVotUiFRLGU2Iz5UMTFxci5sdGRyLlY1ISZBLElrMlZXLzYuIzBWLEJxRypYIzNaUUhMTkhtUVxCcTNGOjNkNihHNz9pUjIrSksrcjVPRVFqNiMsV18/QGJFYTBBKHJ1OHF0cVtJVSo8NThtQDNBInVMMVY+QTtIWTQ6NTwkRC0xO2tDZy4+W1ZtZGE6Z3VjMktsIl8kZkUvMXA4aFxpRGdHOi5BcitUZmpPQl5LdUBOVzRbaW06LE9rbTJHZVRuUDwxJCtwZHFjNnEsJWNwOkAjSklmcGs+aHRNS3NpL2RtL3FFJk9dLD1nODBabzchU2grVFozYT5NTnVmNXJqWTgyV0pLIWlJLC5gYyNTMi1FcVwoOSQ4MVdHPEQ+c2BJRmAiPSNtdWZaOEJISE9LaTE3TWJxV2BCLkxUYi07b2RpKDpAJFBoQko0QFReYC1kJlNGNU83QGxoSk9rN0JZQ25eWE4oZHNNbVJINjBMUUIyRT87J19gKClJdHJxNi5za0M4Wm91bztjOWlFUUhgUkZrI2IvT2dwaTBaPy0iP0tbYyZfMzM2ckdHbCcqQCE+OEB0XydNQ0koQl9bP3A+ZjllSlk5UnIraUYoOGVvPTxLRyM5VSxmRTVtLi8lWldLN1BRZXBBZjtTLjgrTlQidDBLNTxNOi9PRCwtRkRcTCtuXGdKMVtJIUJIUFVkX08+K2s+NVdlOV04MilCNiRGWUZBSVB1VlhOVGhAQE5PYm0/VVFoXVpDYiozaXFrZmlyUi84UD84J2hvWGFDWWshPCwlZzs2L191OSxjLElURFd1O1dSb2E2SSxFS2kkJzlZNillVFFCaUUlXnAlYzZPX0tOOkk6PzlAViEpZyYwdTQnKz9gL0AhPFgsJ3NLMV1ZNU06PztqajNWJG5RXUFBTjxyW1hpU24rLmV0N0MwaFZgP15uPiFmKEYhW3UtKl9uSSs/WFNwO11zRm8lS3Fmb20vbUgsTjtnUkc9UCMmMilgNmwiUS4jLXEwITVEbG1MWyVTXy9TJTc9TDU0dEV0Mk0xbTpyQiRFMiVCZUFZTzJkUFY1QmFhSzQhczdQM0dVaU9YXlg6MTxKN29iLUdKKGRtNU9WRUIpTSMqKEBeTCZZUztgTytmUm41YilrNkhJUC5oJ25WJ140XUk+RDZWa2MkKz5PIy9scyhSOjlqO3RGKTdRLGRwJmpNYGIlPm5SPSoic2EtWXMwY1MiZVk6KmVALC8jTyE+ZEpXVz1fZmZFSjgoXWJYUkE8XVVrKHEiXTRNImMuN11GN2JwUyEpX043TzowR0dlTnVYQ1xtMDo5VzlFTykiNiZPQjBWJFZtYCRScHRUWG9mJXRiV1wlPUooaiNmPTorVydWcSlsR2dRKlQvZF1vSHRGb0FwczhxNFJodGcvKjpzXTM7Jy1tYHFebF8ucyJjQSIqcG5TPE1XYUllNzRZWTBaMD9mcSU9I0tXKC4kMjdCL2U1QERbIVEoNV0ka0MrJ1RwO0BPanEwcWdTImkpSDxSZlQ8PGE+JDE0QURESj1dIW0tZE5NSVJpVEkmOi8iJDBNWygpRCNKcFA8OkZvZDxRJTJvWTJeck5jYyQhJVUvJy1JJC5KOjc1UktfRHUkMmNvbF4vbjBtKFYkNDl1aGEtclg9aUNpXClULktjQVpJMiZLTy5lZys+OUwrZTAkQElzbjszLyovRFpTMjBtOihTKyYpSWY9PERTNWU5LyRNaUVIYiVFUj05UEhARSshW1s/KiZCKzVARmVVPnFzbkExRz4vQ1czYV0nO1UxbSdfb1ZwJiVWTi9yKSpMWlNVXSYqL1oqVEJRMSZJXjBLU1dWcUFwPGhuYl4qdDM9Y206KFc1PHBtUmAsIlc0a0Y7ZVpRQVAhb0FOYWNPOk4uUWBFM0E4T2dgX2pPcypcK2xfXUtWcEIjWmYtK0Vgai9KZF1FYTleZEo2KmNsNWtlLjFIcz8yWFxGcjR0bjoxOC9EWFsxMTIhQj8vRyI5blo3bUkwK2N1NSFaTjtCXk9uPlktVz9Ia05bV3BVWFgsJFRnYDteJkckJUUicC9WUTA9LT87OTdxMVojJ2IpWUo3OW5PK0pLQTFraTs4SlcpRG8ycCw9LzU6W2soYklnRFhAJi1zUC9TdT1sJ3MrcW9IPGoja1lZPlBlWDloT2hbLWlsJV4xUFVuQDZcYUJwJVgmUm5KbWlrKjxNUDw3JmxXbWMqKnFIUGUoPWNgTS5rYCZVZ0ZhLDFGRVEwUnVcU3M8TlZrQSExMk8mSmdaMExuKl5RZTVnUStkRUlxOWYlMCk1Zl1UKU9mPUY+a21pYFZPPydCPixVR0BGbDtVWDo0QkA3UDtpJGEvZSZWYFJFaWs8Vm9jKCE0OCRLLCxaTVVeRCVxSGBfLy01Vlc8aEpSLXJIU2BzX3QxS1FZS1BxcyRCS1IiVl5yQnVuaDJnaj5TN34+ZW5kc3RyZWFtCmVuZG9iagp4cmVmCjAgOQowMDAwMDAwMDAwIDY1NTM1IGYgCjAwMDAwMDAwNjEgMDAwMDAgbiAKMDAwMDAwMDEwMiAwMDAwMCBuIAowMDAwMDAwMjA5IDAwMDAwIG4gCjAwMDAwMDAzMjEgMDAwMDAgbiAKMDAwMDAwMDUyNCAwMDAwMCBuIAowMDAwMDAwNTkyIDAwMDAwIG4gCjAwMDAwMDA4NzIgMDAwMDAgbiAKMDAwMDAwMDkzMSAwMDAwMCBuIAp0cmFpbGVyCjw8Ci9JRCAKWzwwNDRjNmU0YjcxMDA2NGZjMTdlYWRjNDlhZTdkYmQ5ZT48MDQ0YzZlNGI3MTAwNjRmYzE3ZWFkYzQ5YWU3ZGJkOWU+XQolIFJlcG9ydExhYiBnZW5lcmF0ZWQgUERGIGRvY3VtZW50IC0tIGRpZ2VzdCAob3BlbnNvdXJjZSkKCi9JbmZvIDYgMCBSCi9Sb290IDUgMCBSCi9TaXplIDkKPj4Kc3RhcnR4cmVmCjMyMjcKJSVFT0YK" download="Kanish_Santhosh_Resume.pdf"><svg class="i"><use href="#download"/></svg>Download Resume</a>
+      </div>
+      <div class="soc">
+        <a class="glass" href="https://github.com/kanishsanthosh7" target="_blank" rel="noopener" aria-label="GitHub"><svg class="i"><use href="#github"/></svg></a>
+        <a class="glass" href="https://www.linkedin.com/in/kanish-s-5514b4384/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg class="i"><use href="#linkedin"/></svg></a>
+      </div>
+    </div>
+    <!-- Replace the KS monogram with: <img src="profile.jpg" alt="Kanish S"> -->
+    <div class="ph rv"><div>K<span class="gt">S</span></div></div>
+  </div>
+</section>
+
+<section class="s" id="about"><div class="wrap">
+  <h2 class="h2 rv"><span><svg class="i"><use href="#users"/></svg></span>About Me</h2>
+  <div class="glass pad rv about">
+    <p class="o">Motivated B.Sc. Artificial Intelligence &amp; Machine Learning student with a strong interest in technology, problem-solving, and continuous learning. Seeking an opportunity to gain practical experience, strengthen technical knowledge, and contribute effectively to an organization.</p>
+    <p class="meta"><svg class="i"><use href="#pin"/></svg>Tiruppur, Tamil Nadu</p>
+    <div class="tags" id="strengths"></div>
+  </div>
+</div></section>
+
+<section class="s" id="education"><div class="wrap">
+  <h2 class="h2 rv"><span><svg class="i"><use href="#grad"/></svg></span>Education</h2>
+  <ol class="tl" id="edu" style="list-style:none;padding-left:32px"></ol>
+</div></section>
+
+<section class="s" id="skills"><div class="wrap">
+  <h2 class="h2 rv"><span><svg class="i"><use href="#code"/></svg></span>Skills</h2>
+  <div class="grid g3" id="sk"></div>
+</div></section>
+
+<section class="s" id="projects"><div class="wrap">
+  <h2 class="h2 rv"><span><svg class="i"><use href="#folder"/></svg></span>Projects</h2>
+  <div class="grid g2" id="pj"></div>
+</div></section>
+
+<section class="s" id="achievements"><div class="wrap">
+  <h2 class="h2 rv"><span><svg class="i"><use href="#award"/></svg></span>Certifications &amp; Achievements</h2>
+  <div class="grid g2" id="ach"></div>
+</div></section>
+
+<section class="s" id="resume"><div class="wrap">
+  <h2 class="h2 rv"><span><svg class="i"><use href="#file"/></svg></span>Resume</h2>
+  <div class="glass pad rs rv">
+    <p>Download my resume for a complete overview of my education, skills, projects and certifications.</p>
+    <a class="btn p" href="data:application/pdf;base64,JVBERi0xLjQKJZOMi54gUmVwb3J0TGFiIEdlbmVyYXRlZCBQREYgZG9jdW1lbnQgKG9wZW5zb3VyY2UpCjEgMCBvYmoKPDwKL0YxIDIgMCBSIC9GMiAzIDAgUgo+PgplbmRvYmoKMiAwIG9iago8PAovQmFzZUZvbnQgL0hlbHZldGljYSAvRW5jb2RpbmcgL1dpbkFuc2lFbmNvZGluZyAvTmFtZSAvRjEgL1N1YnR5cGUgL1R5cGUxIC9UeXBlIC9Gb250Cj4+CmVuZG9iagozIDAgb2JqCjw8Ci9CYXNlRm9udCAvSGVsdmV0aWNhLUJvbGQgL0VuY29kaW5nIC9XaW5BbnNpRW5jb2RpbmcgL05hbWUgL0YyIC9TdWJ0eXBlIC9UeXBlMSAvVHlwZSAvRm9udAo+PgplbmRvYmoKNCAwIG9iago8PAovQ29udGVudHMgOCAwIFIgL01lZGlhQm94IFsgMCAwIDU5NS4yNzU2IDg0MS44ODk4IF0gL1BhcmVudCA3IDAgUiAvUmVzb3VyY2VzIDw8Ci9Gb250IDEgMCBSIC9Qcm9jU2V0IFsgL1BERiAvVGV4dCAvSW1hZ2VCIC9JbWFnZUMgL0ltYWdlSSBdCj4+IC9Sb3RhdGUgMCAvVHJhbnMgPDwKCj4+IAogIC9UeXBlIC9QYWdlCj4+CmVuZG9iago1IDAgb2JqCjw8Ci9QYWdlTW9kZSAvVXNlTm9uZSAvUGFnZXMgNyAwIFIgL1R5cGUgL0NhdGFsb2cKPj4KZW5kb2JqCjYgMCBvYmoKPDwKL0F1dGhvciAoXChhbm9ueW1vdXNcKSkgL0NyZWF0aW9uRGF0ZSAoRDoyMDI2MDgyNjEzMDQyOSswMCcwMCcpIC9DcmVhdG9yIChcKHVuc3BlY2lmaWVkXCkpIC9LZXl3b3JkcyAoKSAvTW9kRGF0ZSAoRDoyMDI2MDgyNjEzMDQyOSswMCcwMCcpIC9Qcm9kdWNlciAoUmVwb3J0TGFiIFBERiBMaWJyYXJ5IC0gXChvcGVuc291cmNlXCkpIAogIC9TdWJqZWN0IChcKHVuc3BlY2lmaWVkXCkpIC9UaXRsZSAoXChhbm9ueW1vdXNcKSkgL1RyYXBwZWQgL0ZhbHNlCj4+CmVuZG9iago3IDAgb2JqCjw8Ci9Db3VudCAxIC9LaWRzIFsgNCAwIFIgXSAvVHlwZSAvUGFnZXMKPj4KZW5kb2JqCjggMCBvYmoKPDwKL0ZpbHRlciBbIC9BU0NJSTg1RGVjb2RlIC9GbGF0ZURlY29kZSBdIC9MZW5ndGggMjIwNQo+PgpzdHJlYW0KR2IhU245Nl0pWiddL15nZ2VFLWNlZ1N1MSJeTWlWJmViciE1dF1tYzJoTXJUSnR1NzZPcmFEYkhVZVxrQ2gmQStTPV1TLjBiWDZWaDwvMHJObyo9cihkbkFlNS5sPltKM2d1Q0ptaUAvcGQ9OUItXCVhKmVYWzJ0Uy49ZCNpJlwkbEZ0SihcP0llXFY2WDFRZV9eNkRJITAqQSNsJ2BgLS1WMlpmRiRZKmFFWmVjVE1NIydZNUo/RGklRDMpPD9AaStbcipML1U6XGFsKjtkOC01aDRlXyNbXEBXa01JTjkzVGpGLGdsOzdLJCk0Wzo2P0QnU2NBcGhgJzouI2w6KSUvZXFAcl08QkJEPWBFM0tHJGQpM2xxO0JBZEBzS1ouJ3JhWGgzUmciKDpJRiVqJVAwIVI/ZWxjJGlrMk1KKWAwcEwpUykmcSwrbHE4PnJFb0kjVHF0QC5uVFNSYmBvYVM1XVotUiFRLGU2Iz5UMTFxci5sdGRyLlY1ISZBLElrMlZXLzYuIzBWLEJxRypYIzNaUUhMTkhtUVxCcTNGOjNkNihHNz9pUjIrSksrcjVPRVFqNiMsV18/QGJFYTBBKHJ1OHF0cVtJVSo8NThtQDNBInVMMVY+QTtIWTQ6NTwkRC0xO2tDZy4+W1ZtZGE6Z3VjMktsIl8kZkUvMXA4aFxpRGdHOi5BcitUZmpPQl5LdUBOVzRbaW06LE9rbTJHZVRuUDwxJCtwZHFjNnEsJWNwOkAjSklmcGs+aHRNS3NpL2RtL3FFJk9dLD1nODBabzchU2grVFozYT5NTnVmNXJqWTgyV0pLIWlJLC5gYyNTMi1FcVwoOSQ4MVdHPEQ+c2BJRmAiPSNtdWZaOEJISE9LaTE3TWJxV2BCLkxUYi07b2RpKDpAJFBoQko0QFReYC1kJlNGNU83QGxoSk9rN0JZQ25eWE4oZHNNbVJINjBMUUIyRT87J19gKClJdHJxNi5za0M4Wm91bztjOWlFUUhgUkZrI2IvT2dwaTBaPy0iP0tbYyZfMzM2ckdHbCcqQCE+OEB0XydNQ0koQl9bP3A+ZjllSlk5UnIraUYoOGVvPTxLRyM5VSxmRTVtLi8lWldLN1BRZXBBZjtTLjgrTlQidDBLNTxNOi9PRCwtRkRcTCtuXGdKMVtJIUJIUFVkX08+K2s+NVdlOV04MilCNiRGWUZBSVB1VlhOVGhAQE5PYm0/VVFoXVpDYiozaXFrZmlyUi84UD84J2hvWGFDWWshPCwlZzs2L191OSxjLElURFd1O1dSb2E2SSxFS2kkJzlZNillVFFCaUUlXnAlYzZPX0tOOkk6PzlAViEpZyYwdTQnKz9gL0AhPFgsJ3NLMV1ZNU06PztqajNWJG5RXUFBTjxyW1hpU24rLmV0N0MwaFZgP15uPiFmKEYhW3UtKl9uSSs/WFNwO11zRm8lS3Fmb20vbUgsTjtnUkc9UCMmMilgNmwiUS4jLXEwITVEbG1MWyVTXy9TJTc9TDU0dEV0Mk0xbTpyQiRFMiVCZUFZTzJkUFY1QmFhSzQhczdQM0dVaU9YXlg6MTxKN29iLUdKKGRtNU9WRUIpTSMqKEBeTCZZUztgTytmUm41YilrNkhJUC5oJ25WJ140XUk+RDZWa2MkKz5PIy9scyhSOjlqO3RGKTdRLGRwJmpNYGIlPm5SPSoic2EtWXMwY1MiZVk6KmVALC8jTyE+ZEpXVz1fZmZFSjgoXWJYUkE8XVVrKHEiXTRNImMuN11GN2JwUyEpX043TzowR0dlTnVYQ1xtMDo5VzlFTykiNiZPQjBWJFZtYCRScHRUWG9mJXRiV1wlPUooaiNmPTorVydWcSlsR2dRKlQvZF1vSHRGb0FwczhxNFJodGcvKjpzXTM7Jy1tYHFebF8ucyJjQSIqcG5TPE1XYUllNzRZWTBaMD9mcSU9I0tXKC4kMjdCL2U1QERbIVEoNV0ka0MrJ1RwO0BPanEwcWdTImkpSDxSZlQ8PGE+JDE0QURESj1dIW0tZE5NSVJpVEkmOi8iJDBNWygpRCNKcFA8OkZvZDxRJTJvWTJeck5jYyQhJVUvJy1JJC5KOjc1UktfRHUkMmNvbF4vbjBtKFYkNDl1aGEtclg9aUNpXClULktjQVpJMiZLTy5lZys+OUwrZTAkQElzbjszLyovRFpTMjBtOihTKyYpSWY9PERTNWU5LyRNaUVIYiVFUj05UEhARSshW1s/KiZCKzVARmVVPnFzbkExRz4vQ1czYV0nO1UxbSdfb1ZwJiVWTi9yKSpMWlNVXSYqL1oqVEJRMSZJXjBLU1dWcUFwPGhuYl4qdDM9Y206KFc1PHBtUmAsIlc0a0Y7ZVpRQVAhb0FOYWNPOk4uUWBFM0E4T2dgX2pPcypcK2xfXUtWcEIjWmYtK0Vgai9KZF1FYTleZEo2KmNsNWtlLjFIcz8yWFxGcjR0bjoxOC9EWFsxMTIhQj8vRyI5blo3bUkwK2N1NSFaTjtCXk9uPlktVz9Ia05bV3BVWFgsJFRnYDteJkckJUUicC9WUTA9LT87OTdxMVojJ2IpWUo3OW5PK0pLQTFraTs4SlcpRG8ycCw9LzU6W2soYklnRFhAJi1zUC9TdT1sJ3MrcW9IPGoja1lZPlBlWDloT2hbLWlsJV4xUFVuQDZcYUJwJVgmUm5KbWlrKjxNUDw3JmxXbWMqKnFIUGUoPWNgTS5rYCZVZ0ZhLDFGRVEwUnVcU3M8TlZrQSExMk8mSmdaMExuKl5RZTVnUStkRUlxOWYlMCk1Zl1UKU9mPUY+a21pYFZPPydCPixVR0BGbDtVWDo0QkA3UDtpJGEvZSZWYFJFaWs8Vm9jKCE0OCRLLCxaTVVeRCVxSGBfLy01Vlc8aEpSLXJIU2BzX3QxS1FZS1BxcyRCS1IiVl5yQnVuaDJnaj5TN34+ZW5kc3RyZWFtCmVuZG9iagp4cmVmCjAgOQowMDAwMDAwMDAwIDY1NTM1IGYgCjAwMDAwMDAwNjEgMDAwMDAgbiAKMDAwMDAwMDEwMiAwMDAwMCBuIAowMDAwMDAwMjA5IDAwMDAwIG4gCjAwMDAwMDAzMjEgMDAwMDAgbiAKMDAwMDAwMDUyNCAwMDAwMCBuIAowMDAwMDAwNTkyIDAwMDAwIG4gCjAwMDAwMDA4NzIgMDAwMDAgbiAKMDAwMDAwMDkzMSAwMDAwMCBuIAp0cmFpbGVyCjw8Ci9JRCAKWzwwNDRjNmU0YjcxMDA2NGZjMTdlYWRjNDlhZTdkYmQ5ZT48MDQ0YzZlNGI3MTAwNjRmYzE3ZWFkYzQ5YWU3ZGJkOWU+XQolIFJlcG9ydExhYiBnZW5lcmF0ZWQgUERGIGRvY3VtZW50IC0tIGRpZ2VzdCAob3BlbnNvdXJjZSkKCi9JbmZvIDYgMCBSCi9Sb290IDUgMCBSCi9TaXplIDkKPj4Kc3RhcnR4cmVmCjMyMjcKJSVFT0YK" download="Kanish_Santhosh_Resume.pdf"><svg class="i"><use href="#download"/></svg>Download Resume</a>
+  </div>
+</div></section>
+
+<section class="s" id="contact"><div class="wrap">
+  <h2 class="h2 rv"><span><svg class="i"><use href="#mail"/></svg></span>Contact Me</h2>
+  <div class="cg">
+    <div class="cl rv">
+      <a class="glass" href="mailto:kanishsanthosh7@gmail.com"><svg class="i"><use href="#mail"/></svg>kanishsanthosh7@gmail.com</a>
+      <a class="glass" href="tel:+919626543680"><svg class="i"><use href="#phone"/></svg>+91 9626543680</a>
+      <a class="glass" href="https://www.linkedin.com/in/kanish-s-5514b4384/" target="_blank" rel="noopener"><svg class="i"><use href="#linkedin"/></svg>LinkedIn</a>
+      <a class="glass" href="https://github.com/kanishsanthosh7" target="_blank" rel="noopener"><svg class="i"><use href="#github"/></svg>GitHub</a>
+    </div>
+    <form class="glass rv" id="cf" novalidate>
+      <div class="two">
+        <div><label for="name">Name</label><input id="name" name="name" autocomplete="name"><p class="er" data-for="name"></p></div>
+        <div><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email"><p class="er" data-for="email"></p></div>
+      </div>
+      <div><label for="subject">Subject</label><input id="subject" name="subject"><p class="er" data-for="subject"></p></div>
+      <div><label for="message">Message</label><textarea id="message" name="message" rows="5"></textarea><p class="er" data-for="message"></p></div>
+      <div><button class="btn p" id="sb" type="submit"><svg class="i"><use href="#send"/></svg>Send Message</button></div>
+      <p id="st" role="status"></p>
+    </form>
+  </div>
+</div></section>
+</main>
+
+<footer><div class="wrap">&copy; <span id="yr"></span> Kanish Santhosh. All rights reserved.</div></footer>
+<button id="top" class="glass" aria-label="Back to top"><svg class="i"><use href="#up"/></svg></button>
+
+<script>
+/* ===== Content (from resume + GitHub). Edit here. ===== */
+// Contact form: create a free form at https://formspree.io and paste the endpoint, e.g. "https://formspree.io/f/abcd1234".
+// While empty, the form opens the visitor's email app and does NOT claim the message was sent.
+const FORM_ENDPOINT = "";
+const EMAIL = "kanishsanthosh7@gmail.com";
+
+const strengths = ["Quick Learner","Good Communication Skills","Adaptability","Team Player","Problem Solving Ability"];
+const education = [
+  {t:"B.Sc. Artificial Intelligence & Machine Learning",p:"KPR College of Arts and Sciences (KPRCAS), Coimbatore",y:"2023 – Present",s:"Pursuing"},
+  {t:"Higher Secondary (12th)",p:"Century Foundation Matric Higher Secondary School",y:"",s:"75%"},
+  {t:"SSLC (10th)",p:"Century Foundation Matric Higher Secondary School",y:"",s:"65.5%"}
+];
+const skills = [
+  {g:"Programming Languages",i:"code",it:["Python (Basic)","Java (Beginner)","R Programming (Beginner)"]},
+  {g:"Web Development",i:"globe",it:["HTML & CSS Fundamentals"]},
+  {g:"Technical Skills",i:"cpu",it:["Machine Learning Basics","Basic Computer Knowledge"]},
+  {g:"Tools & Technologies",i:"git",it:["GitHub (Basic)"]},
+  {g:"Soft Skills",i:"users",it:["Quick Learner","Good Communication","Adaptability","Team Player","Problem Solving"]}
+];
+// Descriptions are minimal on purpose: only what the repo name/language and resume support.
+// Add features, a screenshot (img:"https://... or data URI") and a live demo link (demo:"https://...") when ready.
+const projects = [
+  {t:"Portfolio",d:"Personal portfolio website built with HTML and CSS, where I learned web page structure and basic web development.",tech:["HTML","CSS"],f:["Personal portfolio page","Basic web page structure"],repo:"https://github.com/kanishsanthosh7/portfolio"},
+  {t:"Hospital Portfolio",d:"A website project written in HTML.",tech:["HTML"],f:[],repo:"https://github.com/kanishsanthosh7/hospitalportfolio"},
+  {t:"Sticky Notes",d:"A JavaScript project.",tech:["JavaScript"],f:[],repo:"https://github.com/kanishsanthosh7/sticky-notes"},
+  {t:"Capstone",d:"A Python project exploring AI concepts.",tech:["Python"],f:[],repo:"https://github.com/kanishsanthosh7/capstone"}
+];
+const achievements = [
+  {i:"award",t:"Web Development Basics",d:"Certification completed with an 80% score."},
+  {i:"trophy",t:"Football & Sports",d:"Active interest in football and sports activities."},
+  {i:"brief",t:"Entrepreneurship",d:"Interest in sports-related business ideas and entrepreneurship."},
+  {i:"users",t:"Teamwork",d:"Built teamwork and coordination skills through sports."}
+];
+const navItems = ["Home","About","Education","Skills","Projects","Achievements","Resume","Contact"];
+
+/* ===== Rendering ===== */
+const $ = s => document.querySelector(s);
+const ic = n => `<svg class="i"><use href="#${n}"/></svg>`;
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+const links = navItems.map(n => `<li><a href="#${n.toLowerCase()}">${n}</a></li>`).join("");
+$("#nl").innerHTML = links; $("#mm").innerHTML = links;
+$("#strengths").innerHTML = strengths.map(s => `<span class="tag">${esc(s)}</span>`).join("");
+$("#edu").innerHTML = education.map(e => `<li class="glass pad rv"><h3>${esc(e.t)}</h3><p class="pl">${esc(e.p)}</p><p class="sc">${esc(e.s)}${e.y ? ` <em>· ${esc(e.y)}</em>` : ""}</p></li>`).join("");
+$("#sk").innerHTML = skills.map(g => `<div class="glass card rv"><div class="sk">${ic(g.i)}<h3>${esc(g.g)}</h3></div><div class="chips">${g.it.map(i => `<span class="chip">${esc(i)}</span>`).join("")}</div></div>`).join("");
+$("#pj").innerHTML = projects.map(p => `<article class="glass card pj rv"><div class="pv">${p.img ? `<img src="${esc(p.img)}" alt="${esc(p.t)} screenshot" loading="lazy">` : ic("folder")}</div><div class="pb"><h3>${esc(p.t)}</h3><p>${esc(p.d)}</p>${p.f.length ? `<ul>${p.f.map(f => `<li>${esc(f)}</li>`).join("")}</ul>` : ""}<div class="tags" style="margin-top:14px">${p.tech.map(t => `<span class="tag">${esc(t)}</span>`).join("")}</div><div class="pl2"><a href="${p.repo}" target="_blank" rel="noopener">${ic("github")}Code</a>${p.demo ? `<a href="${p.demo}" target="_blank" rel="noopener">${ic("ext")}Live demo</a>` : ""}</div></div></article>`).join("");
+$("#ach").innerHTML = achievements.map(a => `<div class="glass card ach rv"><span class="ic">${ic(a.i)}</span><div><h3>${esc(a.t)}</h3><p>${esc(a.d)}</p></div></div>`).join("");
+$("#yr").textContent = new Date().getFullYear();
+
+/* ===== Nav, scroll, reveal ===== */
+const hd = $("#hd"), mb = $("#mb"), top = $("#top");
+mb.onclick = () => { const o = hd.classList.toggle("open"); mb.setAttribute("aria-expanded", o); mb.innerHTML = ic(o ? "x" : "menu"); };
+$("#mm").onclick = e => { if (e.target.tagName === "A") { hd.classList.remove("open"); mb.innerHTML = ic("menu"); mb.setAttribute("aria-expanded", false); } };
+const onScroll = () => { hd.classList.toggle("sc", scrollY > 10); top.classList.toggle("v", scrollY > 600); };
+addEventListener("scroll", onScroll, {passive:true}); onScroll();
+top.onclick = () => scrollTo({top:0, behavior:"smooth"});
+
+const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add("show"); io.unobserve(e.target); } }), {threshold:.12});
+document.querySelectorAll(".rv").forEach(el => io.observe(el));
+
+const secs = [...document.querySelectorAll("main section")];
+const spy = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) document.querySelectorAll("#nl a").forEach(a => a.classList.toggle("on", a.getAttribute("href") === "#" + e.target.id)); }), {rootMargin:"-45% 0px -50% 0px"});
+secs.forEach(s => spy.observe(s));
+
+/* ===== Contact form ===== */
+$("#cf").addEventListener("submit", async e => {
+  e.preventDefault();
+  const f = e.target, st = $("#st"), v = {};
+  ["name","email","subject","message"].forEach(k => v[k] = f[k].value.trim());
+  const er = {};
+  if (v.name.length < 2) er.name = "Please enter your name.";
+  if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v.email)) er.email = "Please enter a valid email.";
+  if (v.subject.length < 3) er.subject = "Please add a subject.";
+  if (v.message.length < 10) er.message = "Message should be at least 10 characters.";
+  document.querySelectorAll(".er").forEach(p => p.textContent = er[p.dataset.for] || "");
+  st.className = ""; st.textContent = "";
+  if (Object.keys(er).length) return;
+  if (!FORM_ENDPOINT) {
+    location.href = `mailto:${EMAIL}?subject=${encodeURIComponent(v.subject)}&body=${encodeURIComponent(v.message + "\n\nFrom: " + v.name + " (" + v.email + ")")}`;
+    st.textContent = "Your email app should open with the message ready. It has not been sent yet.";
+    return;
+  }
+  const b = $("#sb"); b.disabled = true; st.textContent = "Sending…";
+  try {
+    const r = await fetch(FORM_ENDPOINT, {method:"POST", headers:{"Content-Type":"application/json", Accept:"application/json"}, body:JSON.stringify(v)});
+    if (!r.ok) throw 0;
+    st.className = "ok"; st.textContent = "Thanks! Your message has been sent."; f.reset();
+  } catch { st.className = "bad"; st.textContent = "Could not send. Please email me at " + EMAIL + "."; }
+  b.disabled = false;
+});
+</script>
+</body>
+</html>
